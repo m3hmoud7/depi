@@ -1,0 +1,24 @@
+b {
+  display: block;
+  margin: 10px;
+  color: brown;
+}
+
+#type {
+  display: block;
+  margin-top: 20px;
+  color: chocolate;
+}
+
+.demo {
+  color: white;
+  background-color: black;
+}
+
+#del {
+  background-color: red;
+}
+
+mark {
+  font-weight: bold;
+}
