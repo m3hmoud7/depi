@@ -1,0 +1,267 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Start Nav Home Section */
+
+.nav-home {
+  height: 70px;
+  background-color: #212121;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 20px;
+}
+.nav-home a {
+  color: #fff;
+  font-size: 23px;
+  font-family: monospace;
+  text-decoration: none;
+  margin-left: 30px;
+}
+
+/* End Nav Home Section */
+
+/* Start Header Home Section */
+
+.header-home {
+  height: 650px;
+  background-image: url(../img/back.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.header-home h2 {
+  font-size: 35px;
+  font-family: monospace;
+  letter-spacing: 3px;
+  margin-bottom: 25px;
+}
+
+.header-home p {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 35px;
+}
+
+.header-home a {
+  background-color: #6f0f41;
+  color: #fff;
+  font-size: 18px;
+  font-family: monospace;
+  text-decoration: none;
+  letter-spacing: 2px;
+  padding: 10px 20px;
+  margin-left: 25px;
+  border-radius: 5px;
+}
+
+.header-home a:nth-of-type(2) {
+  background-color: #2c9279;
+}
+/* End Header Home Section */
+
+/* Start Children Home Section */
+
+.children-home {
+  padding-top: 35px;
+}
+
+.children-home h2 {
+  text-align: center;
+  font-size: 30px;
+  font-family: monospace;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+.children-home hr {
+  height: 3px;
+  width: 250px;
+  margin: auto;
+  background-color: #e50000;
+  margin-bottom: 70px;
+  border: none;
+}
+
+.children-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #fff;
+}
+
+.children-content img {
+  width: 40%;
+  height: 350px;
+}
+
+.children-content p {
+  width: 40%;
+  font-family: monospace;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 1.5;
+}
+
+/* End Children Home Section */
+
+/* Start About Home Section */
+
+.about-home {
+  background-color: rgba(236, 236, 236, 0.771);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 35px;
+  padding-top: 50px;
+}
+
+.about-content {
+  width: 40%;
+  border: 2px solid #00000062;
+  margin-bottom: 30px;
+  padding: 15px 20px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.about-content img {
+  width: 100%;
+  height: 350px;
+}
+.about-content p {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 15px;
+}
+
+/* End About Home Section */
+
+/* Start Contact Us Home Section */
+
+.contactus-home {
+  width: 100%;
+  height: 485px;
+  background-image: url("../img/contact\ us.gif");
+  background-size: cover;
+  background-position: center;
+  font-family: monospace;
+  padding-top: 70px;
+}
+
+.contactus-home h2 {
+  text-align: center;
+  font-size: 40px;
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+.contactus-home form {
+  width: 75%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contactus-home input {
+  width: 99%;
+  padding: 20px 10px;
+  margin-bottom: 25px;
+  border-radius: 5px;
+  border: none;
+}
+
+.contactus-home input:focus {
+  outline: 2px solid gray;
+}
+
+.contactus-home textarea {
+  width: 100%;
+  padding: 20px 5px;
+  margin-bottom: 50px;
+  border-radius: 5px;
+  border: 1px solid #00000000;
+}
+
+.contactus-home textarea:focus {
+  outline: 2px solid gray;
+}
+
+.contactus-home input:nth-of-type(3) {
+  width: 80px;
+  background-color: #212121;
+  color: #fff;
+  font-size: 14px;
+  padding: 10px 5px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+/* End Contact Us Home Section */
+
+/* Start Login Home Section */
+
+.login-home {
+  height: 300px;
+  background-image: url(../img/html-color-codes-color-tutorials-hero-00e10b1f.jpg);
+  background-size: cover;
+  background-position: center;
+  font-family: monospace;
+  padding-top: 120px;
+}
+
+.login-home h2 {
+  text-align: center;
+  font-size: 40px;
+  color: #fff;
+  margin-bottom: 60px;
+  letter-spacing: 4px;
+}
+
+.login-home form {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-home input {
+  width: 100%;
+  padding: 18px 9px;
+  margin-bottom: 40px;
+  border-radius: 5px;
+  border: none;
+}
+
+.login-home input:focus {
+  outline: 2px solid gray;
+}
+
+.login-home input:nth-of-type(2) {
+  width: 80px;
+  background-color: #212121;
+  color: #fff;
+  font-size: 14px;
+  padding: 10px 5px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+/* End Login Home Section */
