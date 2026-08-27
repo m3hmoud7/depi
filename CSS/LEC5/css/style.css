@@ -47,7 +47,8 @@
 .header-home p {
   font-size: 20px;
   font-weight: 600;
-  margin-bottom: 35px;
+  margin-bottom: 45px;
+  letter-spacing: 1.5px;
 }
 
 .header-home a {
@@ -55,10 +56,10 @@
   color: #fff;
   font-size: 18px;
   font-family: monospace;
-  text-decoration: none;
-  letter-spacing: 2px;
   padding: 10px 20px;
   margin-left: 25px;
+  text-decoration: none;
+  letter-spacing: 2px;
   border-radius: 5px;
 }
 
@@ -77,25 +78,25 @@
   text-align: center;
   font-size: 30px;
   font-family: monospace;
-  letter-spacing: 2px;
   margin-bottom: 20px;
+  letter-spacing: 2px;
 }
 
 .children-home hr {
+  background-color: #e50000;
   height: 3px;
   width: 250px;
   margin: auto;
-  background-color: #e50000;
   margin-bottom: 70px;
   border: none;
 }
 
 .children-content {
+  background-color: #fff;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
-  background-color: #fff;
 }
 
 .children-content img {
@@ -128,14 +129,14 @@
 
 .about-content {
   width: 40%;
-  border: 2px solid #00000062;
-  margin-bottom: 30px;
-  padding: 15px 20px;
   background-color: #fff;
   display: flex;
   flex-direction: column;
   text-align: center;
   align-items: center;
+  margin-bottom: 30px;
+  padding: 15px 20px;
+  border: 2px solid #00000062;
 }
 
 .about-content img {
