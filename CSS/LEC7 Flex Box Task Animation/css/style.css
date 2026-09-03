@@ -1,0 +1,360 @@
+* {
+  margin: 0;
+  padding: 0;
+  perspective: 600px;
+}
+
+/* Start Header Home Section */
+
+.header-home {
+  height: 700px;
+  background-image: url(../img/download.jpg);
+  background-size: cover;
+  background-position: top;
+}
+
+/*  Nav Home  Section */
+
+.nav-home {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 150px;
+}
+
+.nav-home img {
+  width: 150px;
+  height: 100px;
+  transition: all 1s ease-in;
+  cursor: pointer;
+}
+
+.nav-home a {
+  display: inline-block;
+  color: #fff;
+  font-size: 20px;
+  font-family: serif;
+  font-weight: 600;
+  margin-left: 40px;
+  text-decoration: none;
+  transition: all 1s linear;
+  cursor: pointer;
+}
+
+.nav-home button {
+  background-color: #ed7c6a;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: serif;
+  padding: 8px 15px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  transition: all 1s ease-out;
+}
+
+.nav-home img:hover,
+.nav-home a:hover,
+.nav-home button:hover {
+  transform: scale(1.4);
+}
+
+/* Header Home Contnet */
+
+.header-home .header-content {
+  width: 345px;
+  height: 275px;
+  background-color: #59a18ada;
+  color: #fff;
+  padding: 30px 25px;
+  font-size: 40px;
+  font-family: monospace;
+  margin-left: 220px;
+  line-height: 1.3;
+  border-radius: 20px;
+  transition: all 1s linear;
+}
+
+.header-home .header-content:hover {
+  transform: translate(150px, 80px);
+}
+
+/* End Header Home Section, */
+
+/* Start School Clinic Home Section */
+
+.school-home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+
+.school-home h2 {
+  color: #074d4c;
+  font-size: 30px;
+  font-weight: 400;
+  font-family: cursive;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  transition: all 1s ease-in;
+}
+.school-home hr {
+  height: 4px;
+  width: 200px;
+  background-color: #e98317;
+  margin-bottom: 50px;
+  transition: all 1s ease-in;
+}
+.school-home h2:hover,
+.school-home hr:hover {
+  transform: scaleY(2);
+}
+
+.school-home .school-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.school-content img {
+  width: 40%;
+  transition: all 2s ease-out;
+}
+
+.school-content img:hover {
+  transform: skew(50deg, 20deg);
+}
+
+.school-home .school-mainText {
+  width: 40%;
+}
+
+.school-mainText p:nth-of-type(1) {
+  color: #439da8;
+  font-size: 30px;
+  font-family: cursive;
+  margin-bottom: 10px;
+  transition: all 2s linear;
+}
+.school-mainText p {
+  font-size: 20px;
+  font-family: cursive;
+  transition: all 1s linear;
+}
+
+.school-mainText p:nth-of-type(1):hover {
+  transform: translateY(-200px);
+}
+
+.school-mainText p:hover {
+  transform: translate(100px);
+}
+
+/* End School Clinic Home Section */
+
+/* Start Services Home Section */
+
+.service-home {
+  height: 1100px;
+  background-image:
+    url(../img/Path\ 62.png), url(../img/i-love-my-job-so-much_329181-2178.png);
+  background-size: cover;
+  background-position: top;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.service-home h2 {
+  color: #fff;
+  font-family: cursive;
+  font-size: 40px;
+  margin-bottom: 70px;
+  font-weight: 400;
+  transition: all 1s ease-in-out;
+}
+
+.service-home h2:hover {
+  transform: rotateX(50deg);
+}
+
+.main-services {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.main-services .service {
+  width: 17%;
+  height: 500px;
+  background-color: #fff;
+  padding: 40px 20px;
+  border-radius: 10px;
+  transition: all 1.2s ease-out;
+}
+
+.main-services .service:hover {
+  transform: scale(1.2);
+}
+
+.main-services .service img {
+  width: 100%;
+  height: 50%;
+}
+
+.service h4 {
+  font-size: 27px;
+  color: #439da8;
+  font-family: serif;
+  font-weight: 500;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.service p {
+  font-family: serif;
+  font-size: 24px;
+  color: #b7b6b6;
+  text-align: center;
+}
+
+/* End Services Home Section */
+
+/* Start About Home Section */
+.about-home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+.about-home img {
+  width: 20%;
+  height: 100px;
+  transition: all 0.55s linear;
+}
+.about-home img:hover {
+  transform: rotateX(50deg);
+}
+
+/* End About Home Section */
+
+/* Start Footer Home Section */
+
+.footer-home {
+  height: 500px;
+  background-color: #0f7b65;
+  border-radius: 250px 250px 0 0;
+  padding: 0 40px;
+}
+
+.footer-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-evenly;
+}
+
+/* left Side  */
+
+.footer-content .left-side {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.left-side h3 {
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 30px;
+  transition: all 1s linear;
+}
+
+.left-side h3:hover {
+  transform: translateZ(200px);
+}
+
+.left-side p {
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  line-height: 1.5;
+  transition: all 1s linear;
+}
+
+.left-side p:hover {
+  transform: translateY(100px);
+}
+
+.copy-right p {
+  color: #fff;
+  text-align: start;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.copy-right p:hover {
+  transform: translateX(100px);
+}
+
+.copy-right .social-icons {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.social-icons img {
+  width: 40px;
+  height: 40px;
+  transition: width 2s ease-in;
+}
+
+.social-icons img:hover {
+  transform: scale(1.2);
+}
+
+/* Right Side */
+
+.footer-content .right-side {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.right-side h3 {
+  color: #f38e7f;
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 30px;
+  transition: all 1s ease-in-out;
+}
+
+.right-side h3:hover {
+  transform: rotate(300deg);
+}
+.right-side ul {
+  list-style: none;
+}
+.right-side ul li {
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 20px;
+  transition: all 1s linear;
+}
+
+.right-side ul li:hover {
+  transform: translateX(50px);
+}
+/* End Footer Home Section */
