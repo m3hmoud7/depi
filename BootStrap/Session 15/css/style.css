@@ -1,0 +1,208 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* Start Header Home Section */
+
+.header-home {
+  min-height: 700px;
+  background-image: url(../img/download.jpg);
+  background-size: cover;
+}
+
+/* NavBar Home Section */
+
+.header-home .logo {
+  width: 150px;
+  height: 100px;
+}
+
+.header-home .nav-link {
+  font-size: 20px;
+  font-family: serif;
+}
+
+.header-home button {
+  background-color: #ed7c6a;
+  font-family: serif;
+  font-size: 16px;
+  border: none;
+}
+
+.header-home button:hover {
+  background-color: #fb7b67;
+}
+
+@media (max-width: 567px) {
+  .header-home {
+    background-position: right;
+  }
+}
+
+@media (max-width: 991px) {
+  .header-home .logo {
+    width: 100px;
+    height: 70px;
+  }
+}
+
+/* Header Content */
+
+.container .header-content {
+  font-family: monospace;
+  background-color: #59a18ada;
+  width: 75%;
+}
+
+@media (min-width: 568px) and (max-width: 991px) {
+  .container .header-content {
+    width: 100%;
+  }
+}
+@media (max-width: 567px) {
+  .container .header-content {
+    width: 100%;
+    text-align: center;
+  }
+}
+/* End Header Home Section */
+
+/* Start School Clinic  Home Section*/
+
+.clinic-home h2 {
+  color: #074d4c;
+  font-size: 30px;
+  font-weight: 400;
+  font-family: cursive;
+}
+
+.clinic-home hr {
+  height: 5px;
+  width: 200px;
+  background-color: #e98317;
+  margin-bottom: 50px;
+  border: none;
+  margin: 0 auto;
+  opacity: 1;
+}
+
+.school-mainText p:nth-of-type(1) {
+  color: #439da8;
+  font-size: 30px;
+  font-family: cursive;
+  margin-bottom: 10px;
+  margin-left: 25px;
+}
+.school-mainText p {
+  font-size: 20px;
+  font-family: cursive;
+  margin-left: 25px;
+}
+
+/* End School Clinic  Home Section*/
+
+/* Start Touch home Section */
+
+.touch-home {
+  height: 750px;
+  background-image:
+    url(../img/Path\ 62.png), url(../img/i-love-my-job-so-much_329181-2178.png);
+  background-size: cover;
+}
+
+.touch-home h2 {
+  font-family: cursive;
+}
+
+.touch-home h4 {
+  font-size: 22px;
+  color: #439da8;
+  font-family: serif;
+  font-weight: 500;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.touch-home p {
+  font-family: serif;
+  font-size: 20px;
+  color: #b7b6b6;
+  text-align: center;
+}
+
+@media (max-width: 991px) {
+  .touch-home {
+    height: auto;
+  }
+}
+/* End Touch home Section */
+
+/* Start About Home Section */
+
+@media (min-width: 568px) and (max-width: 991px) {
+  .about-home img {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 567px) {
+  .about-home img {
+    width: 50% !important;
+    display: block;
+    margin: auto;
+  }
+}
+
+/* End About Home Section */
+
+/* Start Footer Home Section */
+
+.footer-home {
+  height: 450px;
+  background-color: #0f7b65;
+  border-radius: 150px 150px 0 0;
+}
+
+.footer-home h3 {
+  color: #f38e7f;
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.footer-home ul {
+  list-style: none;
+}
+
+.footer-home ul li {
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.social-icons img {
+  width: 40px;
+  height: 40px;
+  transition: all 0.5s linear;
+  margin-left: 10px;
+}
+
+.social-icons img:hover {
+  transform: scale(1.3);
+}
+
+@media (max-width: 991px) {
+  .footer-home {
+    min-height: 450px;
+    height: auto;
+  }
+}
+
+@media (max-width: 991px) {
+  .social-icons {
+    width: 100% !important;
+  }
+}
+/* End Footer Home Section */
