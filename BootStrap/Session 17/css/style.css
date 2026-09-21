@@ -1,0 +1,13 @@
+/* Start Carousel */
+
+.move-circle {
+  width: 15px !important;
+  height: 15px !important;
+  border-radius: 50%;
+}
+
+.title {
+  top: 40%;
+}
+
+/* End Carousel */
