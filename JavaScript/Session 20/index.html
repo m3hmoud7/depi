@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Intro Js</title>
+  </head>
+  <body>
+    <h2>My First JavaScript</h2>
+    <button onclick="document.getElementById('date').innerHTML = Date()">
+      Click to Show
+    </button>
+    <h5 id="date"></h5>
+
+    <button
+      onclick="document.getElementById('image').src = './img/pic_bulbon.gif'"
+    >
+      Turn on
+    </button>
+    <img id="image" src="./img/pic_bulboff.gif" alt="light" />
+    <button
+      onclick="document.getElementById('image').src = './img/pic_bulboff.gif'"
+    >
+      turn off
+    </button>
+
+    <script src="main.js"></script>
+  </body>
+</html>
