@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap CSS  -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <title>Register Page</title>
+  </head>
+  <body style="background-color: #f8f8ff" class="p-10">
+    <div class="container mt-12 p-7">
+      <div class="row">
+        <div class="md: col-6">
+          <img
+            src="./img/3123i2lmPiL._AC_SY780_.jpg"
+            alt="Neckless"
+            class="img-fluid"
+          />
+        </div>
+        <div class="md: col-6">
+          <h2 class="fs-xl">Create Account</h2>
+          <h4 class="fs-lg fg-secondary my-7">
+            Go ahead and Sign up , let anyone <br />
+            know how awesome you are!
+          </h4>
+          <h5 id="result"></h5>
+          <form
+            action="./success.html"
+            method="get"
+            class="mt-8"
+            onsubmit="return handleSubmit();"
+          >
+            <input
+              id="user"
+              type="text"
+              name="user"
+              placeholder="UserName"
+              class="form-control rounded-1 mt-8 p-4"
+            />
+            <input
+              id="email"
+              type="text"
+              name="email"
+              placeholder="Email"
+              class="form-control rounded-1 mt-8 p-4"
+            />
+            <input
+              id="pass"
+              type="password"
+              name="pass"
+              placeholder="Password"
+              class="form-control rounded-1 mt-8 p-4"
+            />
+            <input
+              id="confirm"
+              type="password"
+              name="confirmPass"
+              placeholder="Confirm Password"
+              class="form-control rounded-1 mt-8 p-4"
+            />
+            <input
+              type="submit"
+              value="Create New Account"
+              class="btn-solid theme-primary d-block w-100 mt-10 p-4"
+            />
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
