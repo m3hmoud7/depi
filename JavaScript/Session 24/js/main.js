@@ -25,6 +25,9 @@ function handleSubmit() {
   } else if (email.indexOf("@", 1) == -1 || email.indexOf(".com", 5) == -1) {
     result.innerHTML = "Enter Valid Email";
     return false;
+  } else if (pass == "") {
+    result.innerHTML = "Enter Valid Password";
+    return false;
   } else if (pass.length < 8) {
     result.innerHTML = "Weak Password";
     return false;
