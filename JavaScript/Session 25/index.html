@@ -13,13 +13,287 @@
   </head>
   <body class="bg-[#f5f5f5]">
     <!-- Start Header Home Section -->
-    <header>
+    <header class="m-0 lg:mb-5">
       <!-- NavOne Home Section -->
-      <nav></nav>
+      <nav class="bg-[#cf5c61] hidden lg:block">
+        <div
+          class="container w-[90%] mx-auto flex items-center justify-between py-3"
+        >
+          <div class="flex gap-3 ms-5">
+            <div
+              class="w-[30px] h-[30px] rounded-full bg-[#fff] flex items-center justify-center"
+            >
+              <a href="https://www.facebook.com" target="_blank">
+                <i
+                  class="fa-brands fa-facebook fa-lg"
+                  style="color: rgb(2, 0, 0)"
+                ></i>
+              </a>
+            </div>
+            <div
+              class="w-[30px] h-[30px] rounded-full bg-[#fff] flex items-center justify-center"
+            >
+              <a href="https://www.x.com" target="_blank">
+                <i
+                  class="fa-brands fa-x-twitter fa-lg"
+                  style="color: rgb(2, 0, 0)"
+                ></i>
+              </a>
+            </div>
+            <div
+              class="w-[30px] h-[30px] rounded-full bg-[#fff] flex items-center justify-center"
+            >
+              <a href="https://web.whatsapp.com/" target="_blank">
+                <i
+                  class="fa-brands fa-whatsapp fa-lg"
+                  style="color: rgb(2, 0, 0)"
+                ></i>
+              </a>
+            </div>
+            <div
+              class="w-[30px] h-[30px] rounded-full bg-[#fff] flex items-center justify-center"
+            >
+              <a href="https://www.youtube.com" target="_blank">
+                <i
+                  class="fa-brands fa-youtube fa-lg"
+                  style="color: rgb(2, 0, 0)"
+                ></i>
+              </a>
+            </div>
+            <div
+              class="w-[30px] h-[30px] rounded-full bg-[#fff] flex items-center justify-center"
+            >
+              <a href="https://www.tiktok.com" target="_blank">
+                <i
+                  class="fa-brands fa-tiktok fa--lg"
+                  style="color: rgb(2, 0, 0)"
+                ></i>
+              </a>
+            </div>
+          </div>
+          <div class="flex items-center gap-3">
+            <div class="flex gap-1 items-center">
+              <i
+                class="fa-solid fa-location-dot"
+                style="color: rgb(253, 252, 248)"
+              ></i>
+              <p class="text-white">Dokki, Giza , Egypt</p>
+            </div>
+            <div class="flex gap-1 items-center">
+              <i
+                class="fa-solid fa-envelope"
+                style="color: rgb(253, 252, 248)"
+              ></i>
+              <p class="text-white">depi@gmail.com</p>
+            </div>
+          </div>
+          <div>
+            <select class="text-white" name="lang">
+              <option class="text-black" value="English">English</option>
+              <option class="text-black" value="arabic">العربية</option>
+            </select>
+          </div>
+        </div>
+      </nav>
       <!-- NavTwo Home Section -->
-      <nav></nav>
+      <nav class="my-5 hidden lg:block">
+        <div
+          class="container w-[90%] mx-auto flex items-center justify-between"
+        >
+          <div class="flex items-center justify-start">
+            <img src="./img/Henna Logo-02 2.png" alt="logo" class="m-0" />
+            <ul class="flex ms-5 gap-5">
+              <li>
+                <a
+                  class="text-[#000] font-medium"
+                  aria-current="page"
+                  href="./index.html"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a class="text-[#b0b5b3] font-medium" href="#"
+                  >Wedding Services</a
+                >
+              </li>
+              <li>
+                <a class="text-[#b0b5b3] font-medium" href="#">Providers</a>
+              </li>
+              <li><a class="text-[#b0b5b3] font-medium" href="#">About</a></li>
+              <li>
+                <a class="text-[#b0b5b3] font-medium" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <div class="flex items-center">
+            <div class="flex relative">
+              <input
+                type="search"
+                name="search"
+                placeholder="Search"
+                class="bg-[#e6f6ec] px-10 py-3 w-[100%]"
+              />
+              <img
+                src="./img/Icon-search.png"
+                alt="Search"
+                class="absolute bottom-3.5 left-2"
+              />
+            </div>
+            <a href="#" class="p-3 bg-[#cd5e5f] ms-3 text-white rounded-md"
+              >Download App</a
+            >
+          </div>
+        </div>
+      </nav>
+      <hr class="h-[1px] bg-[#b0b5b3] border-0" />
       <!-- NavThree Home Section -->
-      <nav></nav>
+      <div class="container w-[90%] mx-auto hidden lg:block">
+        <nav class="flex items-center justify-between mt-5">
+          <a href="./index.html" class="text-[#b0b5b3] ms-5 text-xl font-medium"
+            >Home</a
+          >
+          <div>
+            <a href="#" class="p-3 bg-[#cd5e5f] text-white rounded-md"
+              >Create Account</a
+            >
+            <a href="#" class="px-4 py-3 bg-[#e9d7cc] text-[#855955] rounded-md"
+              >Login</a
+            >
+          </div>
+        </nav>
+      </div>
+      <!-- Responsive NavBar -->
+      <span
+        id="bar"
+        class="text-2xl inline-flex items-center justify-center w-10 h-10 rounded-md bg-[#f5f1ed] cursor-pointer lg:hidden mt-1 transition-transform duration-500 ease-in-out"
+      >
+        <i class="fa-solid fa-bars text-[#292421]"></i>
+      </span>
+      <div
+        id="Links"
+        class="hidden flex flex-col justify-start items-start ms-auto text-start lg:hidden p-5"
+      >
+        <div class="flex flex-col justify-start items-start">
+          <div class="flex flex-col items-center justify-start mb-3">
+            <img src="./img/Henna Logo-02 2.png" alt="logo" class="mb-5" />
+            <ul class="flex flex-col ms-5 gap-5">
+              <li>
+                <a
+                  class="text-[#000] font-medium"
+                  aria-current="page"
+                  href="./index.html"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a class="text-[#b0b5b3] font-medium" href="#"
+                  >Wedding Services</a
+                >
+              </li>
+              <li>
+                <a class="text-[#b0b5b3] font-medium" href="#">Providers</a>
+              </li>
+              <li><a class="text-[#b0b5b3] font-medium" href="#">About</a></li>
+              <li>
+                <a class="text-[#b0b5b3] font-medium" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <div class="flex flex-col gap-5">
+            <div class="flex relative">
+              <input
+                type="search"
+                name="search"
+                placeholder="Search"
+                class="bg-[#e6f6ec] px-10 py-3 w-[100%]"
+              />
+              <img
+                src="./img/Icon-search.png"
+                alt="Search"
+                class="absolute bottom-3.5 left-2"
+              />
+            </div>
+            <div class="mt-5">
+              <a href="#" class="p-3 bg-[#cd5e5f] text-white rounded-md"
+                >Create Account</a
+              >
+              <a
+                href="#"
+                class="px-4 py-3 bg-[#e9d7cc] text-[#855955] rounded-md"
+                >Login</a
+              >
+            </div>
+            <a
+              href="#"
+              class="p-3 bg-[#cd5e5f] text-white rounded-md text-center"
+              >Download App</a
+            >
+          </div>
+        </div>
+        <!-- Language -->
+        <div class="mt-5 mb-10">
+          <select
+            class="w-full max-w-[200px] appearance-none rounded-lg border border-gray-300 bg-white px-4 py-3 text-base font-medium text-black shadow-sm outline-none focus:border-black focus:ring-1 focus:ring-black"
+            name="lang"
+          >
+            <option value="English">English</option>
+            <option value="arabic">العربية</option>
+          </select>
+        </div>
+        <!-- Social Links -->
+        <div class="flex mx-auto gap-3 mt-10">
+          <div
+            class="w-[50px] h-[50px] rounded-full bg-[#fff] flex items-center justify-center"
+          >
+            <a href="https://www.facebook.com" target="_blank">
+              <i
+                class="fa-brands fa-facebook fa-2xl"
+                style="color: rgb(2, 0, 0)"
+              ></i>
+            </a>
+          </div>
+          <div
+            class="w-[50px] h-[50px] rounded-full bg-[#fff] flex items-center justify-center"
+          >
+            <a href="https://www.x.com" target="_blank">
+              <i
+                class="fa-brands fa-x-twitter fa-2xl"
+                style="color: rgb(2, 0, 0)"
+              ></i>
+            </a>
+          </div>
+          <div
+            class="w-[50px] h-[50px] rounded-full bg-[#fff] flex items-center justify-center"
+          >
+            <a href="https://web.whatsapp.com/" target="_blank">
+              <i
+                class="fa-brands fa-whatsapp fa-2xl"
+                style="color: rgb(2, 0, 0)"
+              ></i>
+            </a>
+          </div>
+          <div
+            class="w-[50px] h-[50px] rounded-full bg-[#fff] flex items-center justify-center"
+          >
+            <a href="https://www.youtube.com" target="_blank">
+              <i
+                class="fa-brands fa-youtube fa-2xl"
+                style="color: rgb(2, 0, 0)"
+              ></i>
+            </a>
+          </div>
+          <div
+            class="w-[50px] h-[50px] rounded-full bg-[#fff] flex items-center justify-center"
+          >
+            <a href="https://www.tiktok.com" target="_blank">
+              <i
+                class="fa-brands fa-tiktok fa-2xl"
+                style="color: rgb(2, 0, 0)"
+              ></i>
+            </a>
+          </div>
+        </div>
+      </div>
     </header>
     <!-- End Header Home Section -->
 
@@ -729,5 +1003,7 @@
 
     <!-- fontAwesome Js -->
     <script src="./js/all.min.js"></script>
+    <!-- Main Js -->
+    <script src="./js/main.js"></script>
   </body>
 </html>
