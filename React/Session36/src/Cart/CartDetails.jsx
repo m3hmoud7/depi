@@ -20,6 +20,9 @@ export default function CartDetails() {
           <div className="d-flex flex-column justify-content-center align-items-center w-100">
             <h1>Your Cart Is Empty</h1>
             <img src="/img/cart.png" alt="cart" height="400" />
+            <NavLink to="/products" className="btn btn-primary btn-lg">
+              Back To Products Page
+            </NavLink>
           </div>
         ) : (
           <div className="col-12 col-lg-10 mx-auto">
